@@ -25,3 +25,12 @@ Mengarahakan file ke pada perubahan terakhir dari commitID
 
 <b>git reset --hard {commitID}</b>
 Mengarahakan file ke pada perubahan terakhir dari commitID, WARNING !! dan menghapus commit di atasnya
+
+<b>git checkout -- {filename}</b>
+Akan meng-revert perubahan yang terjadi pada file tersebut (undo)
+
+<b>git checkout -b {branchname}</b>
+Akan membuat branch baru dengan nama sesuai branchname yang di isi
+
+<b>git checkout {branchname}</b>
+Pointer git akan pindah ke branch yang di input (lihat git branch)
