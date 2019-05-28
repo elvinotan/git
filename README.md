@@ -19,3 +19,6 @@ Apabila file yang sudah ter-commit berubah maka kita harus jalankan git add dan 
 <b>git log</b>
 Melihat perubahan atau tahapan tahapan commit, dimana masing masing commit memiliki id perubahan
 (HEAD -> master) perubahan terakhir kita (pointer)
+
+<b>git checkout {commitID}</b>
+Mengarahakan file ke pada perubahan terakhir dari commitID, Hati hati krn commit yang sebelumnya akan hilang
