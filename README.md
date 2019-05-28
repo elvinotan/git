@@ -34,3 +34,6 @@ Akan membuat branch baru dengan nama sesuai branchname yang di isi, pada saat pe
 
 <b>git checkout {branchname}</b>
 Pointer git akan pindah ke branch yang di input (lihat git branch)
+
+<b>git branch -D {branchname}</b>
+Akan menghapus branch yang di input di branchname. Note penghapusan branch tidak bisa dilakukan apabila kita sedang berada di branch tersebut
