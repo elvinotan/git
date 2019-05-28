@@ -37,3 +37,6 @@ Pointer git akan pindah ke branch yang di input (lihat git branch)
 
 <b>git branch -D {branchname}</b>
 Akan menghapus branch yang di input di branchname. Note penghapusan branch tidak bisa dilakukan apabila kita sedang berada di branch tersebut
+
+<b>Kondisi Conflict</b>
+Bila terjadi konflik pada saat push, maka kita harus fixing secara manual, yang kemudian lakukan seperti biasa yaitu git add dan git commit
