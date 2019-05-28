@@ -14,4 +14,8 @@ Untuk menambah perubahan file baru ke dalam repository (status uncommited -> com
 <b>git branch</b>
 Menampilkan seluruh branch yang ada pada repository dan branch yang lagi kita gunakan, otomatis untuk pertama kali branch yang kita gunakan adalah 'master'
 
+Apabila file yang sudah ter-commit berubah maka kita harus jalankan git add dan git commit lagi
 
+<b>git log</b>
+Melihat perubahan atau tahapan tahapan commit, dimana masing masing commit memiliki id perubahan
+(HEAD -> master) perubahan terakhir kita (pointer)
