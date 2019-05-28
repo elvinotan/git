@@ -30,7 +30,7 @@ Mengarahakan file ke pada perubahan terakhir dari commitID, WARNING !! dan mengh
 Akan meng-revert perubahan yang terjadi pada file tersebut (undo)
 
 <b>git checkout -b {branchname}</b>
-Akan membuat branch baru dengan nama sesuai branchname yang di isi
+Akan membuat branch baru dengan nama sesuai branchname yang di isi, pada saat pembuatan branch baru, history dari original branch akan terbawa
 
 <b>git checkout {branchname}</b>
 Pointer git akan pindah ke branch yang di input (lihat git branch)
