@@ -35,6 +35,10 @@ Akan membuat branch baru dengan nama sesuai branchname yang di isi, pada saat pe
 <b>git checkout {branchname}</b>
 Pointer git akan pindah ke branch yang di input (lihat git branch)
 
+<b>git merge {branchname}</b>
+Melakukan merging perubahan coding, kondisinya kita harus berada di sisi yang menarik
+contoh : ada 2 branch master dan newfeature. di branch newfeature ada perubahan dan sudah di commit, maka kita pindah ke sini master kalo lakukan git merge newfeature untuk merging ke master
+
 <b>git branch -D {branchname}</b>
 Akan menghapus branch yang di input di branchname. Note penghapusan branch tidak bisa dilakukan apabila kita sedang berada di branch tersebut
 
