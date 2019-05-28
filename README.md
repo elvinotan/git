@@ -21,4 +21,7 @@ Melihat perubahan atau tahapan tahapan commit, dimana masing masing commit memil
 (HEAD -> master) perubahan terakhir kita (pointer)
 
 <b>git checkout {commitID}</b>
-Mengarahakan file ke pada perubahan terakhir dari commitID, Hati hati krn commit yang sebelumnya akan hilang
+Mengarahakan file ke pada perubahan terakhir dari commitID
+
+<b>git reset --hard {commitID}</b>
+Mengarahakan file ke pada perubahan terakhir dari commitID, WARNING !! dan menghapus commit di atasnya
