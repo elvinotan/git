@@ -42,8 +42,11 @@ contoh : ada 2 branch master dan newfeature. di branch newfeature ada perubahan 
 <b>git branch -D {branchname}</b>
 Akan menghapus branch yang di input di branchname. Note penghapusan branch tidak bisa dilakukan apabila kita sedang berada di branch tersebut
 
-<b>git remote add origin {remote repository}.git<b>
+<b>git remote add origin {remote repository}.git</b>
 Membuat koneksi dari repository local ke repository remote
+
+<b>git push -u origin master</b>
+Push / sychron ke remote url dgn branch remote master
 
 <b>Kondisi Conflict</b>
 Bila terjadi konflik pada saat push, maka kita harus fixing secara manual, yang kemudian lakukan seperti biasa yaitu git add dan git commit
