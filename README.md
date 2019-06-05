@@ -37,7 +37,10 @@ Pointer git akan pindah ke branch yang di input (lihat git branch)
 
 <b>git merge {branchname}</b>
 Melakukan merging perubahan coding, kondisinya kita harus berada di sisi yang menarik
-contoh : ada 2 branch master dan newfeature. di branch newfeature ada perubahan dan sudah di commit, maka kita pindah ke sini master kalo lakukan git merge newfeature untuk merging ke master
+contoh : ada 2 branch master dan newfeature. di branch newfeature ada perubahan dan sudah di commit, maka kita pindah ke sini master kalo lakukan git merge newfeature untuk merging ke master. Note, dengan cara ini semua commit yang ada di newfeature akan ke bawa ke master SEMUANYA.
+
+<b>git merge --squash {branchname}</b>
+Sama halnya dengan di atas, perbedaanya adalah semua perubahan dari branch commitnya tidak di bawah ke master, jadi perubahan tersebut di jadikan 1 paket. Kasarnya, saya tidak mau tau perubahan kamu apa apa saja pokoknya kirim semua jadi 1 perubahan total. Hal ini dapat di lihat dari git log yang tidak memunculkan perubhan dari newfeature
 
 <b>git branch -D {branchname}</b>
 Akan menghapus branch yang di input di branchname. Note penghapusan branch tidak bisa dilakukan apabila kita sedang berada di branch tersebut
