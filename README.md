@@ -54,9 +54,9 @@ git rebase itu misal dari m1, m2 terus kita bikin cabang feature jadi f1 (yg ber
 Intinya kita mau perubahan kita compatable dgn perubahan terakhir dari m2.</br>
 
 misal master telah berubah menjadi m3.</br>
-fiture>git rebase master > akan mengubah root yg sebelumnya m2 menjadi m3.</br>
+in branch fiture>git rebase master = akan mengubah root yg sebelumnya m2 menjadi m3.</br>
 sama halnya dengan master bisa juga untuk menarik perubahan.</br>
-master>git rebase fiture.</br>
+in branch master>git rebase fiture.</br>
 
 <b>Kondisi Conflict</b>
 Bila terjadi konflik pada saat push, maka kita harus fixing secara manual, yang kemudian lakukan seperti biasa yaitu git add dan git commit
