@@ -63,3 +63,7 @@ in branch master>git rebase fiture.</br>
 
 <b>Kondisi Conflict</b>
 Bila terjadi konflik pada saat push, maka kita harus fixing secara manual, yang kemudian lakukan seperti biasa yaitu git add dan git commit
+
+<b>Kasus</b>
+Mencoba menghubungi antara local dan remote, Mencoba untuk pull tetapi muncul 'unrelated histories'</b>
+Paksa dgn git pull --allow-unrelated-histories origin master
