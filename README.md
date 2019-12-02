@@ -26,6 +26,9 @@ Apabila file yang sudah ter-commit berubah maka kita harus jalankan git add dan 
 Melihat perubahan atau tahapan tahapan commit, dimana masing masing commit memiliki id perubahan
 (HEAD -> master) perubahan terakhir kita (pointer)
 
+<b>git clean -df</b>
+Akan menghilangkan untrack file, layaknya discard change tp pada untrack file
+
 <b>git checkout {commitID}</b>
 Mengarahakan file ke pada perubahan terakhir dari commitID
 
