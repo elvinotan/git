@@ -12,7 +12,10 @@ Untuk menambahkan file baru ke dalam repository (status new -> uncommitted)
 Untuk menambah perubahan file baru ke dalam repository (status uncommited -> committed)
 
 <b> git commit --amend -m "{message}"</b>
-Untuk mengubah commit message yang salah tulis
+Untuk mengubah commit message yang salah tulis, hati hati ini mengubah hashcode
+
+<b> git commit --amend</b>
+Bila terdapat file yang ketinggalan tp mau jadi bagian commit terakhir, hati hati ini mengubah hashcode
 
 <b>git branch</b>
 Menampilkan seluruh branch yang ada pada repository dan branch yang lagi kita gunakan, otomatis untuk pertama kali branch yang kita gunakan adalah 'master'
