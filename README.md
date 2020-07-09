@@ -60,6 +60,9 @@ Membuat koneksi dari repository local ke repository remote
 <b>git push -u origin master</b>
 Push / sychron ke remote url dgn branch remote master
 
+<b>git push origin --delete {branch remote repository}</b>
+Hapus Cabang di remote Repository
+
 <b>git rebase {branchname} atau master</b>
 Warning jgn pernah rebase dgn remote repository, hanya untuk local repository saja ya.</br>
 git rebase itu misal dari m1, m2 terus kita bikin cabang feature jadi f1 (yg berasal dari m2) lalu kita ubah code jadi f2. </br>
