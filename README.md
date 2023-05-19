@@ -11,6 +11,9 @@ Untuk menambahkan file baru ke dalam repository (status new -> uncommitted)
 <b> git commit {filename} -m "{message}"</b>
 Untuk menambah perubahan file baru ke dalam repository (status uncommited -> committed)
 
+<b> git commit {filename} -am "{message}"</b>
+2 Oprasi yg berlangsung add file dan masuk ke staging dan langsung commit
+
 <b> git commit --amend -m "{message}"</b>
 Untuk mengubah commit message yang salah tulis, hati hati ini mengubah hashcode
 
@@ -62,6 +65,12 @@ Push / sychron ke remote url dgn branch remote master
 
 <b>git push origin --delete {branch remote repository}</b>
 Hapus Cabang di remote Repository
+
+<b>git revert {commmit}</b>
+melakukan revert/membatalkan versi commit tp ingat ini hanya di local u harus push kembali
+
+<b>git revert HEAD~5..HEAD~1</b>
+Sebenernya bis melakukan rever byk commit, tp ini BAHAYA paling bagus melakukan revert 1 by 1
 
 <b>git rebase {branchname} atau master</b>
 Warning jgn pernah rebase dgn remote repository, hanya untuk local repository saja ya.</br>
