@@ -72,6 +72,27 @@ melakukan revert/membatalkan versi commit tp ingat ini hanya di local u harus pu
 <b>git revert HEAD~5..HEAD~1</b>
 Sebenernya bis melakukan rever byk commit, tp ini BAHAYA paling bagus melakukan revert 1 by 1
 
+<b>git tag {tagname}</b>
+Akan membuat tag pada current branch (git tag v1.0)
+
+<b>git tag -a {tagname} -m {message}</b>
+Membuat annotated tag, dimana kita bisa memberikan pesan pada tag tersebut (git tag -a v1.1 -m "tag for release ver 1.1")
+
+<b>git tag, git show v1.0, git tag -l "v1.*"</b>
+Commend di atas berguna untuk menampilkan list of tag
+
+<b>git push origin v1.0, git push --tags</b>
+Berfungsi untuk push tag v1.0 ke remote 
+
+<b>git tag -d v1.0, git tag --delete v1.0, git push origin -d v1.0</b>
+Menghapus tag 
+
+<b>git checkout -b {branchname} {tagname}</b>
+Memindahkan specific tag ke specific branch
+
+<b>git tag {tagname} {commitname}</b>
+Membuat tag on specific commit address
+
 <b>git rebase {branchname} atau master</b>
 Warning jgn pernah rebase dgn remote repository, hanya untuk local repository saja ya.</br>
 git rebase itu misal dari m1, m2 terus kita bikin cabang feature jadi f1 (yg berasal dari m2) lalu kita ubah code jadi f2. </br>
